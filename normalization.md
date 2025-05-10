@@ -19,8 +19,8 @@
 
 ### 1st Normal Form:
 In the User's table/entity, 1st NF is violated if;
-    * A user has more tan one phone number
-    * A user can have multiple roles (guest, host)
+    - A user has more tan one phone number
+    - A user can have multiple roles (guest, host)
 
 To resolve this, entities named "PhoneNumbers", "Roles" and "UserRoles" have een derived from the User entity.
 
