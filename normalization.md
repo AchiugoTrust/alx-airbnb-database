@@ -24,4 +24,10 @@ In the User's table/entity, 1st NF is violated if;
 
 To resolve this, entities named "PhoneNumbers", "Roles" and "UserRoles" have een derived from the User entity.
 
+| User    
+----------------
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
+
 
