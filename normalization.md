@@ -1,4 +1,4 @@
-# Principles of Normalization:
+# _Principles of Normalization_:
 
 ## 1st Normal Form (1NF):
 * Each cell should be single-valued (atomicity)
