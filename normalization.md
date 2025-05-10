@@ -19,10 +19,10 @@
 
 ### 1st Normal Form:
 In the User's table/entity, 1st NF is violated if;
-- A user has more tan one phone number
+- A user has more than one phone number
 - A user can have multiple roles (guest, host)
 
-To resolve this, entities named "PhoneNumbers", "Roles" and "UserRoles" have been derived from the User entity.
+To resolve this, entities named "PhoneNumbers", "Roles" and "UserRoles" have been derived from the User entity, to ensure atomicity
 
 
 ### 2nd Normal Form:
@@ -30,5 +30,25 @@ The User's table has no partial dependency, hence it is in 2NF.
 
 ### 3rd Normal Form:
 The User's table has no transitive partial dependency, hence it is in 3NF.
+
+
+
+## Property Entity:
+
+### 1st Normal Form:
+In the Property's table/entity;
+- All attributes contain atomic values
+- There are no duplicates
+
+Therefore, the property entity is already in 1NF
+
+
+### 2nd Normal Form:
+The Property's table has no partial dependency, hence it is in 2NF.
+
+### 3rd Normal Form:
+The Property's table has no transitive partial dependency, hence it is in 3NF.
+
+
 
 
