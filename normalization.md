@@ -84,3 +84,37 @@ The Payment's table has no partial dependency, hence it is in 2NF.
 The Payment's table has no transitive partial dependency, hence it is in 3NF.
 
 
+## Reviews Entity:
+
+### 1st Normal Form:
+In the Review's table/entity;
+- All attributes contain atomic values
+- There are no duplicates
+
+Therefore, the review entity is already in 1NF.
+
+
+### 2nd Normal Form:
+The Review's table has no partial dependency, hence it is in 2NF.
+
+### 3rd Normal Form:
+The Review's table has no transitive partial dependency, hence it is in 3NF.
+
+_**NB: Reviews shoud be tied to bookings, not properties. This fulfills the edge case where an individual chooses to book for the same property at a different time, albeit with a different experience; he/she may consequently wish to make a new review based on this experience.**_
+
+
+## Message Entity:
+
+### 1st Normal Form:
+In the Message's table/entity;
+- All attributes contain atomic values
+- There are no duplicates
+
+Therefore, the message entity is already in 1NF.
+
+
+### 2nd Normal Form:
+The Message's table has no partial dependency, hence it is in 2NF.
+
+### 3rd Normal Form:
+The Message's table has no transitive partial dependency, hence it is in 3NF.
