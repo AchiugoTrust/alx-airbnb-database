@@ -66,3 +66,21 @@ The Booking's table has no partial dependency, hence it is in 2NF.
 ### 3rd Normal Form:
 The Booking's table has no transitive partial dependency, hence it is in 3NF.
 
+
+## Payment Entity:
+
+### 1st Normal Form:
+In the Payment's table/entity;
+- All attributes contain atomic values
+- There are no duplicates
+
+Therefore, the payment entity is already in 1NF.
+
+
+### 2nd Normal Form:
+The Payment's table has no partial dependency, hence it is in 2NF.
+
+### 3rd Normal Form:
+The Payment's table has no transitive partial dependency, hence it is in 3NF.
+
+
