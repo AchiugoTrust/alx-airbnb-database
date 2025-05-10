@@ -22,12 +22,13 @@ In the User's table/entity, 1st NF is violated if;
 - A user has more tan one phone number
 - A user can have multiple roles (guest, host)
 
-To resolve this, entities named "PhoneNumbers", "Roles" and "UserRoles" have een derived from the User entity.
+To resolve this, entities named "PhoneNumbers", "Roles" and "UserRoles" have been derived from the User entity.
 
-| User    
-----------------
-| January  | $250    |
-| February | $80     |
-| March    | $420    |
+
+### 2nd Normal Form:
+The User's table has no partial dependency, hence it is in 2NF.
+
+### 3rd Normal Form:
+The User's table has no transitive partial dependency, hence it is in 3NF.
 
 
