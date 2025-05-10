@@ -40,7 +40,7 @@ In the Property's table/entity;
 - All attributes contain atomic values
 - There are no duplicates
 
-Therefore, the property entity is already in 1NF
+Therefore, the property entity is already in 1NF.
 
 
 ### 2nd Normal Form:
@@ -50,5 +50,19 @@ The Property's table has no partial dependency, hence it is in 2NF.
 The Property's table has no transitive partial dependency, hence it is in 3NF.
 
 
+## Booking Entity:
 
+### 1st Normal Form:
+In the Booking's table/entity;
+- All attributes contain atomic values
+- There are no duplicates
+
+Therefore, the booking entity is already in 1NF.
+
+
+### 2nd Normal Form:
+The Booking's table has no partial dependency, hence it is in 2NF.
+
+### 3rd Normal Form:
+The Booking's table has no transitive partial dependency, hence it is in 3NF.
 
