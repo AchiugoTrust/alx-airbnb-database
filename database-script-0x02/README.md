@@ -1,0 +1,1 @@
+These are SQL Queries to populate the created tables with *sample* data.
