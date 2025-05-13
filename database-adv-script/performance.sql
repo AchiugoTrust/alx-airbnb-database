@@ -1,5 +1,4 @@
 /*Initial Query*/
-EXPLAIN ANALYZE
 SELECT b.booking_id, b.total_price, 
        u.user_id, u.first_name, u.email, 
        p.property_id, p.name, p.location, 
