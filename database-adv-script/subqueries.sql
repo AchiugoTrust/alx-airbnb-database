@@ -10,4 +10,4 @@ HAVING AVG(rating) > 4.0)
 SELECT * from users
 WHERE user_id in (SELECT user_id FROM booking
 GROUP BY user_id
-HAVING count(booking_id) > 3);
+HAVING COUNT(booking_id) > 3);
