@@ -1,4 +1,4 @@
-EXPLAIN ANALYZE
+EXPLAIN
 
 SELECT b.booking_id, b.total_price, 
        u.user_id, u.first_name, u.last_name, u.email, 
