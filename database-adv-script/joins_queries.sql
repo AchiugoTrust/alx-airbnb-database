@@ -15,12 +15,4 @@ ORDER BY p.property_id
 
 SELECT u.first_name, u.last_name, b.booking_id, b.property_id, b.status
 FROM users as u 
-LEFT JOIN booking as b
-ON u.user_id = b.user_id
-
-UNION
-
-SELECT u.first_name, u.last_name, b.booking_id, b.property_id, b.status
-FROM users as u 
-RIGHT JOIN booking as b
-ON u.user_id = b.user_id
+OUTER JOIN booking as b
