@@ -16,3 +16,5 @@ ORDER BY p.property_id
 SELECT u.first_name, u.last_name, b.booking_id, b.property_id, b.status
 FROM users as u 
 OUTER JOIN booking as b
+ON u.user_id = b.user_id
+
