@@ -9,6 +9,7 @@ SELECT p.property_id, p.name, r.comment
 FROM property as p
 LEFT JOIN review as r
 ON p.property_id = r.property_id
+ORDER BY p.property_id
 
 /*Full Outer Join simulated in MySQL using a left join, union, and a right join*/
 
