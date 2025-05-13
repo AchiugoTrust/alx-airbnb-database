@@ -1,5 +1,5 @@
 /*Initial Query*/
-EXPLAIN 
+EXPLAIN ANALYZE
 SELECT b.booking_id, b.total_price, 
        u.user_id, u.first_name, u.email, 
        p.property_id, p.name, p.location, 
@@ -10,7 +10,7 @@ JOIN property p ON b.property_id = p.property_id
 LEFT JOIN payment pm ON b.booking_id = pm.booking_id;
 
 /*Refactored Query*/
-EXPLAIN
+EXPLAIN ANALYZE
 
 SELECT b.booking_id, b.total_price, 
        u.user_id, u.first_name, u.last_name, u.email, 
